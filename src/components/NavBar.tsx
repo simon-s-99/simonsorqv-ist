@@ -1,9 +1,9 @@
 export default function NavBar() {
   return (
-    <header className="font-mono font-bold flex place-self-center pt-12">
-      <nav className="flex flex-col place-self-center">
+    <header className="font-mono font-bold w-full flex flex-row place-content-evenly pt-12">
+      <nav className="flex flex-col items-center">
         <h1>Simon Sörqvist</h1>
-        <p className="mx-auto">Developer</p>
+        <p>Developer</p>
       </nav>
     </header>
   );
