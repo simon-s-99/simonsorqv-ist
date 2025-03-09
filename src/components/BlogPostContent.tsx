@@ -69,7 +69,7 @@ export default function BlogPostContent({
           <i>Loading...</i>
         </p>
       ) : (
-        <section>
+        <section className="w-xl">
           {fetchSuccess ? (
             <Markdown skipHtml>{markdown}</Markdown>
           ) : (
