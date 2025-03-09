@@ -69,7 +69,7 @@ export default function BlogPostContent({
           <i>Loading...</i>
         </p>
       ) : (
-        <section className="w-xl">
+        <section className="max-w-xl">
           {fetchSuccess ? (
             <Markdown skipHtml>{markdown}</Markdown>
           ) : (
