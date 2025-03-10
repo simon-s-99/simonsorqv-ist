@@ -5,6 +5,8 @@
 
   --color-primary: #1e1e1e;
   --color-secondary: #252526;
+  --color-primary-accent: #F1E729;
+  --color-secondary-accent: #F40C5C;
 }
 
 @font-face {
