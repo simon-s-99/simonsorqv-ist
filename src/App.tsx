@@ -1,3 +1,4 @@
+import CreatorNameSVG from "./components/CreatorNameSVG";
 import NavBar from "./components/NavBar";
 
 export default function App() {
@@ -5,10 +6,10 @@ export default function App() {
     <>
       <NavBar />
 
-      <main className="font-mono flex flex-col place-self-center mt-4">
+      <main className="font-mono flex flex-col items-center mt-4">
         <p>This website is under development, content coming soon.</p>
         <p>In the meantime you can check out my:</p>
-        <ul className="flex flex-col items-center mt-1">
+        <ul className="flex flex-col items-center mt-1 mb-6">
           <li className="mt-4">
             <a
               href="https://github.com/simon-s-99"
@@ -26,6 +27,8 @@ export default function App() {
             </a>
           </li>
         </ul>
+
+        <CreatorNameSVG width={280} height={160} />
       </main>
     </>
   );
