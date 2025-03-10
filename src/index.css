@@ -1,5 +1,13 @@
 @import "tailwindcss";
 
 @theme {
-    --color-primary: #1E1E1E;
+  --font-supershiny: Super Shiny, ui-monspace, monospace, sans-serif;
+
+  --color-primary: #1e1e1e;
+  --color-secondary: #252526;
+}
+
+@font-face {
+  font-family: Super Shiny;
+  src: url("/fonts/SuperShiny.woff2") format("woff2");
 }
