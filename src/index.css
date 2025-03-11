@@ -1,15 +1,29 @@
 @import "tailwindcss";
 
 @theme {
-  --font-supershiny: Super Shiny, ui-monspace, monospace, sans-serif;
+  --font-source-code-pro: Source Code Pro, ui-monospace, monospace, sans-serif;
+  --font-source-code-pro-bold: Source Code Pro Bold, Source Code Pro,
+    ui-monospace, monospace, sans-serif;
+  --font-supershiny: Super Shiny, Source Code Pro, ui-monospace, monospace,
+    sans-serif;
 
   --color-primary: #1e1e1e;
   --color-secondary: #252526;
-  --color-primary-accent: #F1E729;
-  --color-secondary-accent: #F40C5C;
+  --color-primary-accent: #f1e729;
+  --color-secondary-accent: #f40c5c;
 }
 
 @font-face {
   font-family: Super Shiny;
   src: url("/fonts/SuperShiny.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Source Code Pro;
+  src: url("/fonts/SourceCodePro-Medium.ttf.woff2") format("woff2");
+}
+
+@font-face {
+  font-family: Source Code Pro Bold;
+  src: url("/fonts/SourceCodePro-Bold.ttf.woff2") format("woff2");
 }

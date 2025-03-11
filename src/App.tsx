@@ -6,7 +6,7 @@ export default function App() {
     <>
       <NavBar />
 
-      <main className="font-mono flex flex-col items-center mt-4">
+      <main className="flex flex-col items-center text-center mt-4">
         <p>This website is under development, content coming soon.</p>
         <p>In the meantime you can check out my:</p>
         <ul className="flex flex-col items-center mt-1 mb-6">
