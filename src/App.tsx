@@ -1,10 +1,14 @@
 import CreatorNameSVG from "./components/CreatorNameSVG";
-import NavBar from "./components/NavBar";
 
 export default function App() {
   return (
     <>
-      <NavBar />
+      <header className="font-supershiny w-full flex flex-row place-content-evenly pt-8">
+        <nav className="flex flex-col items-center text-5xl">
+          <h1>Simon Sörqvist</h1>
+          <p>Developer</p>
+        </nav>
+      </header>
 
       <main className="flex flex-col items-center text-center mt-4">
         <p>This website is under development, content coming soon.</p>
