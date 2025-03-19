@@ -23,7 +23,7 @@ export default function App() {
         <ul className="flex flex-col items-center gap-y-1">
           <li className="mt-5">
             <a
-              href="https://github.com/simon-s-99"
+              href="https://github.simonsorqv.ist/"
               className="flex flex-row gap-x-1 px-2 py-1.5 border-2 rounded-md bg-primary border-secondary-accent hover:text-secondary-accent"
             >
               <ImGithub className="text-2xl" /> GitHub
@@ -31,7 +31,7 @@ export default function App() {
           </li>
           <li className="mt-4">
             <a
-              href="https://www.linkedin.com/in/simon-sorqvist/"
+              href="https://linkedin.simonsorqv.ist/"
               className="flex flex-row gap-x-1 px-2 py-1.5 border-2 rounded-md bg-primary border-secondary-accent hover:text-secondary-accent"
             >
               <FaLinkedin className="text-2xl" /> LinkedIn

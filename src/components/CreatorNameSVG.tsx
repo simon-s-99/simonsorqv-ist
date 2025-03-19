@@ -1,7 +1,7 @@
 import { motion } from "motion/react";
 
 const TextColor: string = "#F1E729";
-const DelayBeforeAnimationStarts: number = 0.14; // just a few ms slower than the avg. load time on desktop
+const DelayBeforeAnimationStarts: number = 0.11;
 const AnimateBackgroundDuration: number = 1.3;
 const AnimateLetterDuration: number = 1.2;
 
