@@ -11,7 +11,7 @@ export default function App() {
         <Banner />
         <nav className="flex flex-col gap-y-1 items-center text-[2.6rem] mt-32">
           <CreatorNameSVG width={280} height={160} />
-          <h1>Developer</h1>
+          <h1>Software Engineer</h1>
         </nav>
       </header>
       <main className="flex flex-col">
