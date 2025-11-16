@@ -2,6 +2,7 @@ import CreatorNameSVG from "./components/CreatorNameSVG";
 import { ImGithub } from "react-icons/im";
 import { FaLinkedin } from "react-icons/fa";
 import Banner from "./components/Banner";
+import CreatorImage from "./components/CreatorImage";
 
 export default function App() {
   return (
@@ -9,9 +10,10 @@ export default function App() {
     <div className="min-h-svh flex flex-col">
       <header className="flex flex-col">
         <Banner />
-        <nav className="flex flex-col gap-y-1 items-center text-[2.6rem] mt-32">
+        <nav className="flex flex-col gap-y-1 items-center text-[2.6rem] mt-6">
+          <CreatorImage />
           <CreatorNameSVG width={280} height={160} />
-          <h1>Software Engineer</h1>
+          <h1 className="text-center">Software Engineer</h1>
         </nav>
       </header>
       <main className="flex flex-col">
